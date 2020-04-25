@@ -1,0 +1,75 @@
+Arguments: 
+  D:\nodejs\node.exe D:\Yarn\bin\yarn.js add react-chartkick chart.js
+
+PATH: 
+  C:\Program Files (x86)\IntelSWTools\system_studio_2020\OpenCL\sdk\bin\x64;C:\Program Files (x86)\IntelSWTools\system_studio_2020\OpenCL\sdk\bin\x86;C:\Program Files (x86)\IntelSWTools\system_studio_2020\OpenCL\sdk\bin\Pin;C:\Program Files (x86)\IntelSWTools\system_studio_2020\OpenCL\sdk\bin\GTPin;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files (x86)\Tesseract-OCR;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;D:\TDM-GCC-64\bin;D:\PuTTY\;C:\Program Files (x86)\CrSSL\bin;F:\Git\cmd;F:\Git\mingw64\bin;F:\Git\usr\bin;F:\cmake\bin;C:\ProgramData\chocolatey\bin;D:\nodejs\;D:\Yarn\bin\;C:\Users\Hp\AppData\Local\Programs\Python\Python37\Scripts\;C:\Users\Hp\AppData\Local\Programs\Python\Python37\;C:\Program Files\PostgreSQL\11\pgAdmin 4\bin;C:\Users\Hp\AppData\Local\Microsoft\WindowsApps;C:\Users\Hp\AppData\Local\atom\bin;C:\Users\Hp\heroku\bin;C:\Users\Hp\AppData\Local\Microsoft\WindowsApps;F:\Microsoft VS Code\bin;C:\Users\Hp\AppData\Local\GitHubDesktop\bin;C:\Users\Hp\AppData\Roaming\npm;C:\Users\Hp\AppData\Local\Yarn\bin
+
+Yarn version: 
+  1.22.4
+
+Node version: 
+  12.16.1
+
+Platform: 
+  win32 x64
+
+Trace: 
+  Error: https://registry.yarnpkg.com/@fortawesome/free-solid-svg-icons/-/free-solid-svg-icons-5.13.0.tgz: ESOCKETTIMEDOUT
+      at ClientRequest.<anonymous> (D:\Yarn\lib\cli.js:141375:19)
+      at Object.onceWrapper (events.js:417:28)
+      at ClientRequest.emit (events.js:311:20)
+      at TLSSocket.emitRequestTimeout (_http_client.js:714:9)
+      at Object.onceWrapper (events.js:417:28)
+      at TLSSocket.emit (events.js:311:20)
+      at TLSSocket.Socket._onTimeout (net.js:478:8)
+      at listOnTimeout (internal/timers.js:549:17)
+      at processTimers (internal/timers.js:492:7)
+
+npm manifest: 
+  {
+    "name": "frontend",
+    "version": "0.1.0",
+    "private": true,
+    "dependencies": {
+      "@fortawesome/fontawesome-svg-core": "^1.2.28",
+      "@fortawesome/free-solid-svg-icons": "^5.13.0",
+      "@fortawesome/react-fontawesome": "^0.1.9",
+      "@testing-library/jest-dom": "^4.2.4",
+      "@testing-library/react": "^9.5.0",
+      "@testing-library/user-event": "^7.2.1",
+      "axios": "^0.19.2",
+      "bootstrap": "^4.4.1",
+      "react": "^16.13.1",
+      "react-dom": "^16.13.1",
+      "react-icons": "^3.9.0",
+      "react-router-dom": "^5.1.2",
+      "react-scripts": "3.4.1"
+    },
+    "scripts": {
+      "start": "react-scripts start",
+      "build": "react-scripts build",
+      "test": "react-scripts test",
+      "eject": "react-scripts eject"
+    },
+    "eslintConfig": {
+      "extends": "react-app"
+    },
+    "browserslist": {
+      "production": [
+        ">0.2%",
+        "not dead",
+        "not op_mini all"
+      ],
+      "development": [
+        "last 1 chrome version",
+        "last 1 firefox version",
+        "last 1 safari version"
+      ]
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile

@@ -1,0 +1,60 @@
+.add-template {
+  position: relative;
+}
+.page-title {
+  margin-left: 15px;
+  font-size: 30px;
+}
+.add-button {
+  position: relative;
+  left: 750px;
+  padding: 10px;
+  font-size: 15px;
+  background-color: #3e3e3e;
+  color: #e1e1e1;
+  border-radius: 2px;
+}
+.display-body {
+  display: flex;
+  margin-left: 15px;
+  margin-top: 30px;
+  padding: 5px;
+}
+
+div .cardw {
+  /* height: 200px; */
+  width: 175px;
+  margin: 20px;
+  font-size: 10px;
+  border-radius: 5px;
+  border: solid 0.5px #3e3e3e;
+}
+
+div img {
+  height: 100px;
+  width: 173px;
+  border-radius: 5px;
+}
+div .cardw-body {
+  position: static;
+  text-align: center;
+}
+
+div .cardw-body .cardw-title {
+  font-size: 15px;
+}
+
+div .cardw-body .cardw-text {
+  position: relative;
+  left: 0px;
+}
+
+div .cardw-body .btnw {
+  border-radius: 5px;
+  color: #e1e1e1;
+  height: 30px;
+  margin: 5px;
+  padding: 2px;
+  font-size: 15px;
+  background-color: #3e3e3e;
+}

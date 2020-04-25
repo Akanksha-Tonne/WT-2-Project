@@ -1,0 +1,38 @@
+.table-body {
+  text-align: center;
+}
+
+.table-body .title {
+  padding: 20px;
+  font-size: 30px;
+}
+table {
+  margin: 0px;
+  width: 98%;
+  border: black solid 1px;
+  background-color: #3e3e3e;
+  padding: 10px;
+  text-align: center;
+  font-size: 13px;
+}
+table thead tr th {
+  padding: 10px;
+  border-right: 0.5px solid #e1e1e1;
+  color: #e1e1e1;
+}
+
+table tbody {
+  border: solid #e1e1e1 0.5px;
+  text-align: center;
+  color: #3e3e3e;
+  background-color: white;
+}
+
+table tbody tr {
+  border: solid black 0.5px;
+}
+
+table tbody tr td {
+  padding: 10px;
+  border-right: solid black 0.4px;
+}

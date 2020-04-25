@@ -1,0 +1,55 @@
+.form-wrapper {
+  position: static;
+}
+.form-title {
+  position: relative;
+  left: 15%;
+  font-size: 30px;
+  padding: 5px;
+  margin-bottom: 30px;
+}
+form {
+  position: relative;
+  left: 15%;
+  display: inline-block;
+}
+form table {
+  text-align: left;
+}
+.not-photo {
+  background-color: #b3a8a859;
+  color: #3e3e3e;
+  margin: 5px;
+  height: 40px;
+  border: solid 1px;
+  border-radius: 2px;
+  width: 300px;
+}
+.photo {
+  margin: 5px;
+  background-color: white;
+  width: 300px;
+}
+
+.submit-button {
+  padding: 5px;
+  border-radius: 5px;
+  font-size: 15px;
+}
+
+form table tr td {
+  width: 200px;
+}
+
+table,
+.form-title {
+  margin-left: 100px;
+}
+table tr td {
+  line-height: 40px;
+}
+
+.error-message {
+  margin: 5px;
+  padding: 5px;
+}
